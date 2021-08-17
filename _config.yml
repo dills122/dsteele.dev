@@ -14,7 +14,7 @@ picture: assets/images/avatar.png
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-url: https://drive.google.com/file/d/1ikMitbnYtxgE0KdUpMe3WtC8Epikdv3l/view?usp=sharing
 
 url: https://dsteele.dev
 # your url: https://USERNAME.github.io
