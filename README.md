@@ -19,3 +19,7 @@ docker-compose up "build"
 ```
 
 once its done building, the final project will be in the `_site/` directory.
+
+### Creating Posts
+
+Branches should be names in this manner: `posts/{POST-NAME}`
