@@ -9,6 +9,11 @@ layout: compress
         {% include analytics-google.html %}
     {% endif %}
 
+
+    {% if site.analytics-umami %}
+        {% include analytics-umami.html %}
+    {% endif %}
+
     <meta charset="utf-8">
     <meta name=viewport content="width=device-width, initial-scale=1">
     <meta name=author content="{{ site.name }}">
