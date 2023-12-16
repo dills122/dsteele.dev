@@ -1,16 +1,9 @@
-version: "3"
+# no version needed since 2020
+
 services:
-    site:
-        environment:
-            - JEKYLL_ENV=docker
-        command: jekyll serve --config  _config.yml,_config-dev.yml
-        image: jekyll/jekyll:latest
-        volumes:
-            - .:/srv/jekyll
-        ports:
-            - 4000:4000
-    build:
-        command: jekyll build
-        image: jekyll/jekyll:latest
-        volumes:
-            - .:/srv/jekyll
+  jekyll:
+    image: bretfisher/jekyll-serve
+    volumes:
+      - .:/site
+    ports:
+      - '4000:4000'
