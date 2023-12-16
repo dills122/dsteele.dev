@@ -1,0 +1,7 @@
+FROM bretfisher/jekyll-serve
+
+WORKDIR /tmp
+COPY . .
+
+RUN bundle install --retry 5 --jobs 20
+RUN bundle exec jekyll build
