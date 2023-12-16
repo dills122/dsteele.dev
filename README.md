@@ -7,7 +7,7 @@ Home of my website and blog.
 You'll need docker for this setup to avoid having to install and setup the ruby and Jekyll dependencies.
 
 ```bash
-docker-compose up "site"
+docker compose up
 ```
 
 This will build and serve the site to `localhost:4000`
@@ -15,7 +15,7 @@ This will build and serve the site to `localhost:4000`
 ## Build Project
 
 ```bash
-docker-compose up "build"
+sh build-deploy.sh ./_site/
 ```
 
 once its done building, the final project will be in the `_site/` directory.
